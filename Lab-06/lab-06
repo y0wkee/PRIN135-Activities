@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Book Catalog Table</title>
+    </head>
+    <body>
+        <h1>Book Catalog</h1>
+
+        <table>
+            <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Genre</th>
+                <th>Publication Year</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td>The Maze Runner</td>
+                <td>James Dashner</td>
+                <td>Dystopian</td>
+                <td>2009</td>
+            </tr>
+            
+            <tr>
+                <td>The Scorch Trials</td>
+                <td>James Dashner</td>
+                <td>Dystopian</td>
+                <td>2010</td>
+            </tr>
+
+            <tr>
+                <td>The Death Cure</td>
+                <td>James Dashner</td>
+                <td>Post-Apocalyptic Adventure </td>
+                <td>2011</td>
+            </tr>
+
+            <tr>
+                <td>The Kill Order (Prequel)</td>
+                <td>James Dashner</td>
+                <td>Science Fiction</td>
+                <td>2012</td>
+            </tr>
+
+            <tr>
+                <td>The Fever Code (Prequel)</td>
+                <td>James Dashner</td>
+                <td>Science Fiction</td>
+                <td>2016</td>
+            </tr>
+            </tbody>
+
+            <tfoot>
+            <tr>
+                <td colspan="4">Total Books: 5</td>
+            </tr>
+            </tfoot>
+        </table>
+
+    </body>
+</html>
